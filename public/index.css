@@ -48,6 +48,10 @@ table {
 }
 
 /* CSS */
+body {
+	background-color: #D3EDEB;
+	color: #268986;
+}
 /* =====NAVBAR===== */
 .navbar {
 	display: flex;
@@ -59,8 +63,12 @@ table {
 	font-family: 'Nunino';
 }
 .navbar .btn:hover {
-	text-decoration: underline #b40000;
+	text-decoration: underline #fff;
 	text-underline-position: under;
+}
+.navbar img {
+	width: 70vh;
+	height: 50vh;
 }
 /* =====BAR===== */
 .bar .btn {
@@ -69,11 +77,57 @@ table {
 	font-family: 'Nunino';
 }
 .bar .btn:hover {
-	text-decoration: underline #b40000;
+	text-decoration: underline #1f2235;
 	text-underline-position: under;
 }
 
-.home img {
-	min-width: 20vh;
-	min-height: 20vh;
+.Home .icon {
+	color: #1f2235;
+	font-size: 5vh;
+	margin-top: 3vh;
+}
+
+.Home .icon:hover {
+	color: #268986;
+}
+
+.Home .btn:hover {
+	background-color: #268986;
+}
+
+.About span {
+	color: #1f2235;
+}
+
+.particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contact .text-field {
+	color: #1f2235;
+}
+
+.contact .text-field:hover {
+	color: #1f2235;
+}
+
+.contact .btn {
+	color: #fff;
+	font-family: 'Poppins';
+	background-color: #1f2235;
+}
+.contact .btn:hover {
+	background-color:  #268986;
+}
+
+.contact .icon {
+	color: #1f2235;
+	font-size: 5vh;
+}
+
+.contact .icon:hover {
+	color: #268986;
 }

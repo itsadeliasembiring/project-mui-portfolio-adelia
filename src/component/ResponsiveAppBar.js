@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
-import logo from '../img/logo.svg';
+import logo from '../img/logo.gif';
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +27,7 @@ const ResponsiveAppBar = () => {
 
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "#fff" }}>
+    <AppBar position="static" sx={{ bgcolor: "#1f2235" }} elevation={1}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -46,7 +46,7 @@ const ResponsiveAppBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              sx={{ color: "#000" }}
+              sx={{ color: "#fff" }}
             >
               <MenuIcon />
             </IconButton>
@@ -114,7 +114,7 @@ const ResponsiveAppBar = () => {
                 {/* Home */}
                 <Button
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "black", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Home
                 </Button>
@@ -123,7 +123,7 @@ const ResponsiveAppBar = () => {
               <Link to="/about" className="btn">
                 <Button
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "black", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   About
                 </Button>
@@ -132,7 +132,7 @@ const ResponsiveAppBar = () => {
               <Link to="/project" className="btn">
                 <Button
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "black", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Project
                 </Button>
@@ -141,7 +141,7 @@ const ResponsiveAppBar = () => {
               <Link to="/skill" className="btn">
                 <Button
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "black", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Skill
                 </Button>
@@ -150,7 +150,7 @@ const ResponsiveAppBar = () => {
               <Link to="/contact" className="btn">
                 <Button
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "black", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Contact
                 </Button>
