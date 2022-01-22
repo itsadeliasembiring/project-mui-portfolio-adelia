@@ -20,7 +20,7 @@ function App() {
       <div className='App'>
         <ResponsiveAppBar />
         <Switch>
-          <Route path="/" exact component={Home}/>
+          <Route path="/project-mui-portfolio-adelia/" exact component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/project" component={Project}/>
           <Route path="/skill" component={Skill}/>

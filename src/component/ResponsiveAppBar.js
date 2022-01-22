@@ -70,7 +70,7 @@ const ResponsiveAppBar = () => {
             >
               <div className="bar">
                 {/* Home */}
-                <Link to="/" className="btn">
+                <Link to="/project-mui-portfolio-adelia/" className="btn">
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">Home</Typography>
                   </MenuItem>
@@ -110,7 +110,7 @@ const ResponsiveAppBar = () => {
           {/* Menu Navbar */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             <div className="navbar">
-              <Link to="/" className="btn">
+              <Link to="/project-mui-portfolio-adelia/" className="btn">
                 {/* Home */}
                 <Button
                   onClick={handleCloseNavMenu}
