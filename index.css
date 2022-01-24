@@ -1,8 +1,8 @@
+/* ===== CSS RESET ===== */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,58 +47,69 @@ table {
 	border-spacing: 0;
 }
 
-/* CSS */
+/* ===== CSS ===== */
 body {
 	background-color: #D3EDEB;
 	color: #268986;
 }
+
 /* =====NAVBAR===== */
 .navbar {
 	display: flex;
 	margin-left: 60%;
 	text-decoration: none;
 }
+/* Button Menu Navbar*/
 .navbar .btn {
 	text-decoration: none;
 	font-family: 'Nunino';
 }
+/* Button Menu Navbar (hover) */
 .navbar .btn:hover {
 	text-decoration: underline #fff;
 	text-underline-position: under;
 }
+/* Logo */
 .navbar img {
 	width: 70vh;
 	height: 50vh;
 }
-/* =====BAR===== */
+
+/* =====NAVBAR MOBILE===== */
+/* Button Menu */
 .bar .btn {
 	color: #000;
 	text-decoration: none;
 	font-family: 'Nunino';
 }
+/* Button Menu(hover) */
 .bar .btn:hover {
 	text-decoration: underline #1f2235;
 	text-underline-position: under;
 }
 
+/* =====HOME===== */
+/* Icon */
 .Home .icon {
 	color: #1f2235;
 	font-size: 5vh;
 	margin-top: 3vh;
 }
-
+/* Icon (hover) */
 .Home .icon:hover {
 	color: #268986;
 }
-
+/* Button (hover) */
 .Home .btn:hover {
 	background-color: #268986;
 }
 
+/* =====ABOUT===== */
+/* Warna tulisan Adelia */
 .About span {
 	color: #1f2235;
 }
-
+/* Background particles */
 .particles {
   position: fixed;
   width: 100%;
@@ -106,51 +117,15 @@ body {
   z-index: -1;
 }
 
-.contact .text-field {
-	color: #1f2235;
-}
-
-.contact .text-field:hover {
-	color: #1f2235;
-}
-
-.contact .btn {
-	color: #fff;
-	font-family: 'Poppins';
-	background-color: #1f2235;
-}
-.contact .btn:hover {
-	background-color:  #268986;
-}
-
-.contact .icon {
-	color: #1f2235;
-	font-size: 5vh;
-}
-
-.contact .icon:hover {
-	color: #268986;
-}
-
 /*===== Skill =====*/
 /* Icon */
 .icon-skill {
 	font-family: 'Poppins', sans-serif;
 }
+/* Ukuran Icon */
 .icon-skill i {
 	margin-right: 5px;
 	font-size: 30px;
-}
-.icon-skill p {
-	font-size: 20px;
-}
-.skill-html, .skill-css, .skill-javascript, .skill-canva{
-	display: flex;
-	margin-top: 25px;
-	text-decoration: underline #1f2235;
-	text-underline-position: under;
-	align-items: center;
-	font-weight: bold;
 }
 /* Warna icon */
 .skill-html i {
@@ -165,7 +140,20 @@ body {
 .skill-canva i {
 	color: #1f2235;
 }
-/* skill-progress */
+/* Nama Skill */
+.icon-skill p {
+	font-size: 20px;
+}
+/* Underline Nama Skill */
+.skill-html, .skill-css, .skill-javascript, .skill-canva{
+	display: flex;
+	margin-top: 25px;
+	text-decoration: underline #1f2235;
+	text-underline-position: under;
+	align-items: center;
+	font-weight: bold;
+}
+/* Skill-progress */
 .skill-progress {
 	background-color: #D3EDEB;
 	width: 300px;
@@ -174,6 +162,7 @@ body {
 	border: #1f2235 solid;
 	border-radius: 15px;
 }
+/* Progress */
 .skill {
 	background-color: #268986;
 	height: 20px;
@@ -190,16 +179,45 @@ body {
 	animation: load 3s normal forwards;
 	
 }
-/* Persentase-skill */
+/* Persentase */
 .html {
-	width: 80%;
+	width: 90%;
 }
 .css {
-	width: 75%;
+	width: 80%;
 }
 .javascript {
-	width: 23%;
+	width: 35%;
 }
 .canva {
 	width: 90%;
+}
+
+/* =====CONTACT===== */
+/* Textfield */
+.contact .text-field {
+	color: #1f2235;
+}
+/* Textfield (hover) */
+.contact .text-field:hover {
+	color: #1f2235;
+}
+/* Button */
+.contact .btn {
+	color: #fff;
+	font-family: 'Poppins';
+	background-color: #1f2235;
+}
+/* Button (hover) */
+.contact .btn:hover {
+	background-color:  #268986;
+}
+/* Icon */
+.contact .icon {
+	color: #1f2235;
+	font-size: 5vh;
+}
+/* Icon (hover) */
+.contact .icon:hover {
+	color: #268986;
 }
