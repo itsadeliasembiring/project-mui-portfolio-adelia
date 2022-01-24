@@ -173,7 +173,6 @@ export default function Contact() {
                   <Button
                     type="submit"
                     variant="contained"
-                    color="primary"
                     className='btn'
                     style={{maxWidth: '90px', maxHeight: '40px', minWidth: '90px', minHeight: '40px'}}
                   >

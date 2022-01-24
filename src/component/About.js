@@ -25,7 +25,13 @@ export default function About() {
             >
               <Grid item xs={12}>
                 {/* Image */}
-                <img src={foto2} alt="foto2" width={360} data-aos="fade-right"/>
+                <img src={foto2}
+                  alt="foto2"
+                  width={355}
+                  // Animasi AOS
+                  data-aos="fade-right"
+
+                />
 
                 {/* Name */}
                 <Typography
