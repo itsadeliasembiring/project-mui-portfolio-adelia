@@ -13,6 +13,8 @@ import {
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// Import image
+import footer from '../img/footer.svg';
 
 export default function Contact() {
   return (
@@ -196,8 +198,8 @@ export default function Contact() {
                 <Link href="https://www.linkedin.com/in/adelia-adel-38a96a211" target="_blank" underline="none" mr={1}><LinkedInIcon className="icon"></LinkedInIcon></Link>
                 <Link href="https://github.com/itsadeliasembiring" target="_blank" underline="none"><GitHubIcon className="icon"></GitHubIcon></Link>
               </Grid>
-              
             </Grid>
+            <img src={footer} alt="footer" align='center' width={'100%'}/>
         </Box>
       </Container>
     </div>
