@@ -140,12 +140,15 @@ body {
 .skill-canva i {
 	color: #1f2235;
 }
+.skill-react i {
+	color: #63dbfb;
+}
 /* Nama Skill */
 .icon-skill p {
 	font-size: 20px;
 }
 /* Underline Nama Skill */
-.skill-html, .skill-css, .skill-javascript, .skill-canva{
+.skill-html, .skill-css, .skill-javascript, .skill-canva, .skill-react{
 	display: flex;
 	margin-top: 25px;
 	text-decoration: underline #1f2235;
@@ -175,7 +178,7 @@ body {
 @keyframes load {
 	0% { width: 0; }
 }
-.html, .css, .javascript, .canva {
+.html, .css, .javascript, .canva, .react {
 	animation: load 3s normal forwards;
 	
 }
@@ -191,6 +194,9 @@ body {
 }
 .canva {
 	width: 90%;
+}
+.react {
+	width: 40%;
 }
 
 /* =====CONTACT===== */

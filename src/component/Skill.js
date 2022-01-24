@@ -76,7 +76,15 @@ export default function Skill() {
                           <div className="skill-progress">
                               <div className="skill canva">90%</div>
                           </div>
-                          
+
+                         {/* React */}
+                          <div className="skill-react">
+                              <i className="uil uil-react"></i>
+                              <p>REACT</p>
+                          </div>
+                          <div className="skill-progress">
+                              <div className="skill react">40%</div>
+                          </div> 
                       </div>
                   </div>
               </div>
