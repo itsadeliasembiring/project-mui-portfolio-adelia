@@ -1,14 +1,15 @@
 import React from 'react';
+// Import MUI
 import {
-  Container,
   Box,
-  Typography,
-  Grid,
-  TextField,
   Button,
+  Container,
+  Grid,
   Link,
+  TextField,
+  Typography,
 } from "@mui/material";
-// Import Icon
+// Import Icon MUI
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -18,6 +19,7 @@ export default function Contact() {
     <div className='contact'>
       <Container maxWidth="xl" >
         <Typography
+              // CSS Font
               sx={{
                 fontSize: {
                   xl: 60,
@@ -31,10 +33,15 @@ export default function Contact() {
                 fontWeight: 'bold',
                 textAlign: 'center'
               }}
-            >Connect with me</Typography>
-        <Box maxWidth="xl" mb={3} justifyContent="center">
+              // Animasi AOS
+              data-aos="fade-down"
+            >Connect with me
+            </Typography>
+
+        <Box maxWidth="xl" mb={3} justifyContent="center" data-aos="fade-up">
            <Grid container spacing={1} align="center">
               <Grid xs={12} item mb={2.5}>
+                  {/* Textfield Name */}
                   <TextField
                     label="Name"
                     className="text-field"
@@ -75,6 +82,7 @@ export default function Contact() {
                   />
               </Grid>
               <Grid xs={12} item mb={2.5}>
+                  {/* Textfield Email */}
                   <TextField
                     label="Email"
                     className="text-field"
@@ -115,7 +123,9 @@ export default function Contact() {
                     }}
                   />
               </Grid>
+
               <Grid item xs={12} mb={2}>
+                  {/* Textfield Message */}
                   <TextField
                     label="Message"
                     className="text-field"
@@ -157,7 +167,9 @@ export default function Contact() {
                     }}
                   />
               </Grid>
+
               <Grid item xs={12}>
+                  {/* Button */}
                   <Button
                     type="submit"
                     variant="contained"
@@ -170,6 +182,7 @@ export default function Contact() {
               </Grid>
 
               <Grid item xs={12}>
+                {/* Connect with me */}
                 <Typography
                   sx={{
                     fontWeight: 'bold',
@@ -178,11 +191,13 @@ export default function Contact() {
                     mb: 1
                   }}
                 >Connect with me:</Typography>
-                {/* Contact */}
+
+                {/* Contact Icon */}
                 <Link href="https://www.instagram.com/adelialistic/" target="_blank" underline="none" mr={1}><InstagramIcon className="icon" ></InstagramIcon></Link>
                 <Link href="https://www.linkedin.com/in/adelia-adel-38a96a211" target="_blank" underline="none" mr={1}><LinkedInIcon className="icon"></LinkedInIcon></Link>
                 <Link href="https://github.com/itsadeliasembiring" target="_blank" underline="none"><GitHubIcon className="icon"></GitHubIcon></Link>
               </Grid>
+              
             </Grid>
         </Box>
       </Container>

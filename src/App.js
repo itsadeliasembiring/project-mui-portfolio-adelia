@@ -1,6 +1,6 @@
 // Import
 import React from 'react';
-import ResponsiveAppBar from './component/ResponsiveAppBar';
+import Navbar from './component/Navbar';
 import Home from './component/Home';
 import About from './component/About';
 import Project from './component/Project';
@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <ResponsiveAppBar />
+        <Navbar />
         <Switch>
           <Route path="/project-mui-portfolio-adelia/" exact component={Home}/>
           <Route path="/about" component={About}/>
