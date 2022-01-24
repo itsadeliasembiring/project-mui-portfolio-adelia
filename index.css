@@ -131,3 +131,75 @@ body {
 .contact .icon:hover {
 	color: #268986;
 }
+
+/*===== Skill =====*/
+/* Icon */
+.icon-skill {
+	font-family: 'Poppins', sans-serif;
+}
+.icon-skill i {
+	margin-right: 5px;
+	font-size: 30px;
+}
+.icon-skill p {
+	font-size: 20px;
+}
+.skill-html, .skill-css, .skill-javascript, .skill-canva{
+	display: flex;
+	margin-top: 25px;
+	text-decoration: underline #1f2235;
+	text-underline-position: under;
+	align-items: center;
+	font-weight: bold;
+}
+/* Warna icon */
+.skill-html i {
+	color: #FF5733;
+}
+.skill-css i {
+	color: #1a5ee6;
+}
+.skill-javascript i {
+	color: #ffd000;
+}
+.skill-canva i {
+	color: #1f2235;
+}
+/* skill-progress */
+.skill-progress {
+	background-color: #D3EDEB;
+	width: 300px;
+	height: 26px;
+	margin-top: 9px;
+	border: #1f2235 solid;
+	border-radius: 15px;
+}
+.skill {
+	background-color: #268986;
+	height: 20px;
+	padding: 1%;
+	color: #D3EDEB;
+	text-align: right;
+	font-size: 14px;
+	border-radius: 15px;
+}
+@keyframes load {
+	0% { width: 0; }
+}
+.html, .css, .javascript, .canva {
+	animation: load 3s normal forwards;
+	
+}
+/* Persentase-skill */
+.html {
+	width: 80%;
+}
+.css {
+	width: 75%;
+}
+.javascript {
+	width: 23%;
+}
+.canva {
+	width: 90%;
+}
